@@ -1,0 +1,8 @@
+streamlit
+pandas
+joblib
+sklearn-crfsuite
+faker
+tqdm
+scikit-learn
+scipy
