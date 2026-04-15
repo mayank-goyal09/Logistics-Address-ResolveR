@@ -77,3 +77,31 @@ Whether it's the lack of spaces (`123mainst`), typos (`mian rd`), or complex Ind
 ### **Saving Millions in Operational Inefficiencies**
 
 </div>
+
+| **Pain Point** | **AI Solution (Logistics ResolveR)** | **Impact** |
+|:------------:|:---------------------------------:|:------------:|
+| 🏢 **Manual Data Entry** | Automatic parsing from raw customer notes. | **90% Less Manual Work** |
+| 🚚 **Non-Deliverable-Addresses** | Sanitizes text into valid shipping labels. | **↓ Delivery Failures** |
+| ⏱️ **Sorting Congestion** | Instant component identification for routing. | **↑ Throughput** |
+| 🌍 **Geocoding Failures** | Prepares raw strings for Google Maps/HERE APIs. | **🎯 Higher Accuracy** |
+
+---
+
+## 🛠️ **TECHNOLOGY STACK**
+
+<div align="center">
+
+![Tech Stack](https://skillicons.dev/icons?i=python,github,vscode)
+
+</div>
+
+| **Category** | **Technologies** | **Purpose** |
+|:------------:|:-----------------|:------------|
+| 🐍 **Core Language** | Python 3.9+ | Primary development language |
+| 🧠 **Machine Learning** | Sklearn-CRFSuite | Sequence labeling architecture |
+| 📊 **Data Science** | Pandas, SciPy | Data manipulation & statistics |
+| 🎨 **Frontend** | Streamlit | Glassmorphism dashboard |
+| 🧪 **Data Generation** | Faker | Synthesizing realistic messy datasets |
+| 🚀 **Deployment** | Streamlit Cloud | Production-grade hosting |
+
+---
