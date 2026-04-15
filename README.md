@@ -105,3 +105,48 @@ Whether it's the lack of spaces (`123mainst`), typos (`mian rd`), or complex Ind
 | 🚀 **Deployment** | Streamlit Cloud | Production-grade hosting |
 
 ---
+
+## 🔬 **THE ML PIPELINE**
+
+```mermaid
+graph LR
+    A[📝 Raw Address] --> B[✂️ Char Tokenization]
+    B --> C[⚙️ Feature Extraction]
+    C --> D[🧠 Linear-Chain CRF]
+    D --> E[🏷️ Sequence Labels]
+    E --> F[📦 Structured JSON]
+    
+    style A fill:#FF7800,color:#fff
+    style D fill:#f093fb,color:#fff
+    style F fill:#00f2fe,color:#000
+```
+
+### **1. Intelligent Feature Engineering**
+The model doesn't just "read" characters; it analyzes context:
+- **Character N-grams**: Looks 3 steps back and forward.
+- **Anchor Detection**: Specifically looks for triggers like `Plot`, `Flat`, `Opp`.
+- **Transitions**: Detects digit-to-letter transitions (crucial for house numbers).
+
+### **2. CRF Architecture**
+Unlike typical RNNs, the Linear-Chain CRF learns the **state transitions** (e.g., a "Postcode" usually follows a "State"). This makes it incredibly robust to typos compared to simple regex.
+
+---
+
+## 📂 **PROJECT STRUCTURE**
+
+```
+📦 Logistics-Address-ResolveR/
+│
+├── 📊 app.py                             # Premium Streamlit Dashboard
+├── 🧠 main.ipynb                         # Model training & optimization
+├── 🛠️ dataset_generator.py               # "Messy Data" synthesis engine
+│
+├── 🗂️ Data & Models
+│   ├── messy_address_dataset.csv         # 100k generated addresses
+│   └── global_address_resolver_v1.pkl    # Trained CRF Model Checkpoint
+│
+├── 📦 requirements.txt                   # Project dependencies
+└── 📖 README.md                          # Interactive Documentation
+```
+
+---
