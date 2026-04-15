@@ -84,7 +84,7 @@ def final_polish(structured_addr):
 
 # --- UI CONFIG ---
 
-st.set_page_config(page_title="Logistics ResolveR", layout="wide")
+st.set_page_config(page_title="Logistics ResolveR", page_icon="📦", layout="wide")
 
 # Custom CSS for Orange/Black Glassmorphism
 st.markdown("""
