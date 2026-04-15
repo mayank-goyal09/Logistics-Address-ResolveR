@@ -150,3 +150,26 @@ Unlike typical RNNs, the Linear-Chain CRF learns the **state transitions** (e.g.
 ```
 
 ---
+
+## 🚀 **QUICK START GUIDE**
+
+### **Step 1: Clone the Project** 📥
+
+```bash
+git clone https://github.com/mayank-goyal09/Logistics-Address-ResolveR.git
+cd Logistics-Address-ResolveR
+```
+
+### **Step 2: Install Engine** 📦
+
+```bash
+pip install -r requirements.txt
+```
+
+### **Step 3: Launch Dashboard** 🎯
+
+```bash
+streamlit run app.py
+```
+
+---
