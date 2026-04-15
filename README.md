@@ -173,3 +173,74 @@ streamlit run app.py
 ```
 
 ---
+
+## 🎮 **HOW TO USE**
+
+<table>
+<tr>
+<td>
+
+### 🔹 **Single Resolve**
+1. Navigate to "🎯 Single Resolve".
+2. Paste any messy address (e.g., `plot45opptemplemumbai400001`).
+3. See the model instantly split it into components.
+
+</td>
+<td>
+
+### 🔹 **Bulk Processing**
+1. Navigate to "📦 Bulk Processor".
+2. Upload a CSV with 1,000s of messy addresses.
+3. Download the standardized CSV in seconds!
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📚 **SKILLS DEMONSTRATED**
+
+| **Category** | **Skills** |
+|:-------------|:-----------|
+| 🧠 **Machine Learning** | Sequence Labeling (CRF), NLP Pipeline Design |
+| 📊 **Feature Engineering** | Contextual window anchors, regex-hybrids |
+| 🐍 **Python Development** | Modular model development & deployment |
+| 🎨 **UI/UX Design** | Premium Glassmorphism, data visualization |
+| 🚀 **MLOps** | Model serialization (Joblib), Cloud Deployment |
+
+---
+
+## 👨‍💻 **CONNECT WITH ME**
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-mayank--goyal09-181717?style=for-the-badge&logo=github)](https://github.com/mayank-goyal09)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mayank_Goyal-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mayank-goyal-4b8756363/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-4facfe?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mayank-goyal09.github.io/)
+
+<br/>
+
+**Mayank Goyal**  
+📊 Data Analyst | 🧠 Machine Learning Enthusiast  
+
+</div>
+
+---
+
+## ⭐ **SHOW YOUR SUPPORT**
+
+<div align="center">
+
+Give a ⭐️ if this project helped you understand address parsing and sequence models!
+
+<br/>
+
+### 📦 **Built for Logistics Efficiency by Mayank Goyal**
+
+<br/>
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:FF7800,100:FF3D00&height=120&section=footer)
+
+</div>
+
