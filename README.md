@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📦 Logistics ResolveR — Unstructured Address Parser
+# 📦 Logistics ResolveR — Unstructured Address Parser 📦
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=32&duration=3500&pause=1000&color=FF7800&center=true&vCenter=true&width=900&height=100&lines=Intelligent+Address+Structuring+🛰️;Messy+Data+→+Standardized+APIs;CRF+Sequence+Modeling+%7C+91.59%25+Accuracy)](https://git.io/typing-svg)
 
